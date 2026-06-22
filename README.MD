@@ -104,19 +104,25 @@ mcp_agent.secrets.yaml
 logs/
 .venv/ / venv/
 __pycache__/
+
 ⚙️ Installation
 1) Clone the Repository
 git clone https://github.com/meenuparashar18/Voice-Browser-Assistant.git
+
 cd Voice-Browser-Assistant
 2) Create and Activate a Virtual Environment
+
 On Windows
 python -m venv venv
 venv\Scripts\activate
+
 On macOS / Linux
 python3 -m venv venv
 source venv/bin/activate
+
 3) Install Python Dependencies
 pip install -r requirements.txt
+
 4) Make Sure Node.js and npm Are Installed
 
 This project uses Playwright MCP via npx, so Node.js must be installed.
@@ -144,8 +150,8 @@ Install Ollama
 Pull the required model
 Make sure the endpoint is available at:
 http://localhost:11434/v1
-6) Configure MCP Settings
 
+6) Configure MCP Settings
 The project uses mcp_agent.config.yaml for runtime configuration.
 
 Example config:
