@@ -82,6 +82,9 @@ Voice-Browser-Assistant/
 ├── .gitignore                 # Ignored local/private files
 └── README.md                  # Project documentation
 
+```
+```bash
+
 Ignored / local-only files
 
 These are intentionally not included in the repository:
@@ -93,24 +96,16 @@ logs/
 .venv/ / venv/
 __pycache__/
 
+```
 
-Ignored / Local-Only Files
-
-These are intentionally not included in the repository:
-
-mcp_agent.secrets.yaml
-.playwright-mcp/
-.env
-logs/
-.venv/ / venv/
-__pycache__/
-
+---
 ## ⚙️ Installation
 
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/meenuparashar18/Voice-Browser-Assistant.git
 cd Voice-Browser-Assistant
+```
 
 cd Voice-Browser-Assistant
 2) Create and Activate a Virtual Environment
@@ -218,8 +213,8 @@ Improve UI/UX for smoother interaction
 Add better error handling and status feedback
 Support more LLM providers / remote endpoints
 Add deployment support for a hosted demo version
-🧠 Learning Outcomes
 
+🧠 Learning Outcome
 This project helped in exploring:
 
 voice-enabled AI application development
