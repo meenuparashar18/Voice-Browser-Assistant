@@ -108,7 +108,7 @@ cd Voice-Browser-Assistant
 ```
 ---
 
- 2. Create and Activate a Virtual Environment
+ ### 2. Create and Activate a Virtual Environment
 On Windows:
 ```bash
 python -m venv venv
