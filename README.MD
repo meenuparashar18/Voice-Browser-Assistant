@@ -200,7 +200,7 @@ streamlit run main.py
 Once the app starts, open the local Streamlit URL shown in the terminal (usually http://localhost:8501).
 
 
-
+---
  ### 🔄Workflow
 Voice/text input is captured
 The MCP workflow interprets the task
@@ -211,7 +211,8 @@ Output
 Voice-assisted browser interaction
 AI-guided browser task execution
 Interactive workflow experimentation using local LLMs + MCP
-
+---
+---
 ### 📈 Future Improvements
 Add support for more browser actions and tools
 Improve multi-step task planning and execution
@@ -220,7 +221,9 @@ Improve UI/UX for smoother interaction
 Add better error handling and status feedback
 Support more LLM providers / remote endpoints
 Add deployment support for a hosted demo version
+---
 
+---
 ### 🧠 Learning Outcome
 This project helped in exploring:
 
@@ -230,3 +233,4 @@ Streamlit-based interactive app development.
 Integrating local LLM endpoints with Python apps.
 Configuration and secret management for GitHub projects.
 Combining voice, browser automation, and agent workflows in one project.
+---
