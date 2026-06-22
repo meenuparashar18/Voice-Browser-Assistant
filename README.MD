@@ -108,12 +108,11 @@ cd Voice-Browser-Assistant
 ```
 ---
 
- ###2) Create and Activate a Virtual Environment
- ```bash
-On Windows
+ 2. Create and Activate a Virtual Environment
+On Windows:
+```bash
 python -m venv venv
 venv\Scripts\activate
-
 ```
 ---
 ```bash
@@ -122,10 +121,10 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-3) Install Python Dependencies
+1) Install Python Dependencies
 pip install -r requirements.txt
 
-4) Make Sure Node.js and npm Are Installed
+1) Make Sure Node.js and npm Are Installed
 
 This project uses Playwright MCP via npx, so Node.js must be installed.
 
