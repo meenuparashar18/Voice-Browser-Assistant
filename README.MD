@@ -138,14 +138,15 @@ npm -v
 
 If these commands don’t work, install Node.js first.
 
-1) Set Up Your Local LLM Backend
+ ### 1) Set Up Your Local LLM Backend
 
 This project is configured to use an OpenAI-compatible local endpoint, for example:
 
 openai:
+```bash
   base_url: "http://localhost:11434/v1"
   default_model: "llama3.2"
-
+```
 That means you should have a local model server running, such as Ollama.
 
 Example:
@@ -155,48 +156,14 @@ Pull the required model
 Make sure the endpoint is available at:
 http://localhost:11434/v1
 
-6) Configure MCP Settings
-The project uses mcp_agent.config.yaml for runtime configuration.
 
-Example config:
 
-execution_engine: asyncio
-
-logger:
-  transports: [console, file]
-  level: debug
-  progress_display: true
-  path_settings:
-    path_pattern: "logs/mcp-agent-{unique_id}.jsonl"
-    unique_id: "timestamp"
-    timestamp_format: "%Y%m%d_%H%M%S"
-
-mcp:
-  servers:
-    playwright:
-      command: "npx"
-      args: ["@playwright/mcp@latest"]
-
-openai:
-  base_url: "http://localhost:11434/v1"
-  default_model: "llama3.2"
-
-If your setup requires private secrets, store them separately in:
-
-mcp_agent.secrets.yaml
-
-or
-
-.env
-
-and do not push them to GitHub.
-
-▶️ Run Application
+### ▶️ Run Application
 
 Start the Streamlit app:
-
+```bash
 streamlit run main.py
-
+```
 Once the app starts, open the local Streamlit URL shown in the terminal (usually http://localhost:8501).
 
 
@@ -212,6 +179,7 @@ Voice-assisted browser interaction
 AI-guided browser task execution
 Interactive workflow experimentation using local LLMs + MCP
 ---
+
 ---
 ### 📈 Future Improvements
 Add support for more browser actions and tools
