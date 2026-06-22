@@ -1,0 +1,15 @@
+# Secrets aur Local Configs
+mcp_agent.secrets.yaml
+.playwright-mcp/
+.vscode/
+.env
+
+# Python environment files
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Logs
+logs/
+*.log
