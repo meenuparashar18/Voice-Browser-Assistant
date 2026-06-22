@@ -219,7 +219,7 @@ Improve UI/UX for smoother interaction
 Add better error handling and status feedback
 Support more LLM providers / remote endpoints
 Add deployment support for a hosted demo version
-
+---
 🧠 Learning Outcome
 This project helped in exploring:
 
@@ -229,3 +229,4 @@ Streamlit-based interactive app development
 integrating local LLM endpoints with Python apps
 configuration and secret management for GitHub projects
 combining voice, browser automation, and agent workflows in one project
+---
