@@ -291,11 +291,3 @@ This project helped in exploring:
 
 ---
 
-## ⚠️ Notes
-
-* This project is primarily built for **learning and experimentation**
-* If you use **Ollama** or another local endpoint, make sure it is running before starting the app
-* If Playwright MCP is required during execution, ensure **Node.js / npm** is installed properly
-* Keep secrets and local environment files out of the public repository
-
----
