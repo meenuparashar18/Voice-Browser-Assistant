@@ -201,7 +201,7 @@ Once the app starts, open the local Streamlit URL shown in the terminal (usually
 
 
 
-Workflow
+ ### 🔄Workflow
 Voice/text input is captured
 The MCP workflow interprets the task
 The LLM decides the next action
@@ -213,8 +213,6 @@ AI-guided browser task execution
 Interactive workflow experimentation using local LLMs + MCP
 
 ### 📈 Future Improvements
----
-```
 Add support for more browser actions and tools
 Improve multi-step task planning and execution
 Add memory / chat history support
@@ -222,15 +220,13 @@ Improve UI/UX for smoother interaction
 Add better error handling and status feedback
 Support more LLM providers / remote endpoints
 Add deployment support for a hosted demo version
----
-```
-🧠 Learning Outcome
+
+### 🧠 Learning Outcome
 This project helped in exploring:
 
-voice-enabled AI application development
-browser automation with MCP workflows
-Streamlit-based interactive app development
-integrating local LLM endpoints with Python apps
-configuration and secret management for GitHub projects
-combining voice, browser automation, and agent workflows in one project
----
+Voice-enabled AI application development.
+Browser automation with MCP workflows.
+Streamlit-based interactive app development.
+Integrating local LLM endpoints with Python apps.
+Configuration and secret management for GitHub projects.
+Combining voice, browser automation, and agent workflows in one project.
