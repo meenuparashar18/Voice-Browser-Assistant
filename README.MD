@@ -211,7 +211,9 @@ Output
 Voice-assisted browser interaction
 AI-guided browser task execution
 Interactive workflow experimentation using local LLMs + MCP
-📈 Future Improvements
+
+### 📈 Future Improvements
+---
 Add support for more browser actions and tools
 Improve multi-step task planning and execution
 Add memory / chat history support
