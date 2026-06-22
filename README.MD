@@ -128,18 +128,17 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 ---
-1) Make Sure Node.js and npm Are Installed
-
+### 4. Check Node.js and npm Versions
 This project uses Playwright MCP via npx, so Node.js must be installed.
-
-Check versions:
-
+```bash
 node -v
 npm -v
+```
+---
 
 If these commands don’t work, install Node.js first.
 
-5) Set Up Your Local LLM Backend
+1) Set Up Your Local LLM Backend
 
 This project is configured to use an OpenAI-compatible local endpoint, for example:
 
