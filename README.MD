@@ -115,15 +115,19 @@ python -m venv venv
 venv\Scripts\activate
 ```
 ---
-```bash
+
 On macOS / Linux
+```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-1) Install Python Dependencies
-pip install -r requirements.txt
 
+### 1) Install Python Dependencies
+```bash
+pip install -r requirements.txt
+```
+---
 1) Make Sure Node.js and npm Are Installed
 
 This project uses Playwright MCP via npx, so Node.js must be installed.
