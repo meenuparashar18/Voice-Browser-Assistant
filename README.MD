@@ -214,6 +214,7 @@ Interactive workflow experimentation using local LLMs + MCP
 
 ### 📈 Future Improvements
 ---
+```
 Add support for more browser actions and tools
 Improve multi-step task planning and execution
 Add memory / chat history support
@@ -222,6 +223,7 @@ Add better error handling and status feedback
 Support more LLM providers / remote endpoints
 Add deployment support for a hosted demo version
 ---
+```
 🧠 Learning Outcome
 This project helped in exploring:
 
