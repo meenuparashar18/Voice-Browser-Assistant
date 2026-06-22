@@ -107,10 +107,9 @@ git clone https://github.com/meenuparashar18/Voice-Browser-Assistant.git
 cd Voice-Browser-Assistant
 ```
 ---
-```bash
-cd Voice-Browser-Assistant
-```bash
-2) Create and Activate a Virtual Environment
+
+ ###2) Create and Activate a Virtual Environment
+ ```bash
 On Windows
 python -m venv venv
 venv\Scripts\activate
