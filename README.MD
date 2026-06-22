@@ -105,9 +105,12 @@ logs/
 .venv/ / venv/
 __pycache__/
 
-⚙️ Installation
-1) Clone the Repository
+## ⚙️ Installation
+
+### 1. Clone the Repository
+```bash
 git clone https://github.com/meenuparashar18/Voice-Browser-Assistant.git
+cd Voice-Browser-Assistant
 
 cd Voice-Browser-Assistant
 2) Create and Activate a Virtual Environment
